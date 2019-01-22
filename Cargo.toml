@@ -1,0 +1,10 @@
+[package]
+name = "vkffi"
+version = "0.1.0"
+authors = ["tglanz"]
+edition = "2018"
+build = "build.rs"
+links = "vulkan-1"
+
+[dependencies]
+libc = "*"
